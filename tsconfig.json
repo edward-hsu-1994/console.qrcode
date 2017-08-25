@@ -2,8 +2,17 @@
     "compileOnSave": true,
     "compilerOptions": {
         "target": "es5",
+        "outFile": "dist/console.qrcode.js",        
         "noEmitOnError": true,
         "removeComments": false,
         "sourceMap": true,
+        "allowJs": true
     },
+    "files":[
+        "./src/header.ts",
+        "./src/console.ext.d.ts",
+        "./src/console.image.min.js",
+        "./src/qrcode.min.js",
+        "./src/console.qrcode.ts"
+    ]
 }
